@@ -3,7 +3,7 @@
 //  MensAgilis-Trunk
 //
 //  Created by Giovanni La Torre on 1/29/11.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 MensAgilus. All rights reserved.
 //
 
 #import "MensAgilis_TrunkAppDelegate.h"
@@ -11,6 +11,15 @@
 @implementation MensAgilis_TrunkAppDelegate
 
 @synthesize window;
+
+@synthesize ateneaBtn;
+@synthesize donnaBtn;
+@synthesize maxClubBtn;
+@synthesize uomoBtn;
+
+@synthesize toolBar;
+
+@synthesize pictureView;
 
 
 #pragma mark -
@@ -71,6 +80,37 @@
     /*
      Free up as much memory as possible by purging cached data objects that can be recreated (or reloaded from disk) later.
      */
+}
+
+
+- (IBAction)barItemClick:(id)sender {
+	int digit = [sender tag];
+	
+	NSLog (@"%d", digit);
+
+	NSString *imagePath;
+	
+	switch (digit) {
+		case 0:
+			imagePath= @"Atenea.jpeg";
+			break;
+		case 1:
+			imagePath= @"Donna.jpeg";
+			break;
+		case 2:
+			imagePath= @"MaxClub.jpeg";
+			break;
+		case 3:
+			imagePath= @"Uomo.jpeg";
+			break;
+		default:
+			break;
+	}
+	NSLog (@"%@", imagePath);
+	
+	UIImage *image= [UIImage imageNamed:imagePath];
+	
+	pictureView.image=image;
 }
 
 
