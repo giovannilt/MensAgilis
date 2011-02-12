@@ -1,0 +1,15 @@
+#how create new Repository
+#create Folder 
+mkdir MensAgilis
+
+cd MensAgilis
+
+git config --global user.name "Giovanni La Torre"
+git config --global user.email giovannilt@gmail.com
+git config branch.master.remote origin
+git config branch.master.merge refs/heads/master
+
+git init
+
+git remote add origin git@github.com:giovannilt/MensAgilis.git
+git push
