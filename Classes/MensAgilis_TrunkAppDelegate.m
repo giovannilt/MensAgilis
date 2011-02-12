@@ -12,14 +12,21 @@
 
 @synthesize window;
 
-@synthesize ateneaBtn;
-@synthesize donnaBtn;
-@synthesize maxClubBtn;
-@synthesize uomoBtn;
+@synthesize atenea;
+@synthesize donna;
+@synthesize maxClub;
+@synthesize uomo;
 
-@synthesize toolBar;
 
-@synthesize pictureView;
+@synthesize tabBar;
+@synthesize navBar;
+
+@synthesize ateneaImgView;
+@synthesize uomoImgView;
+@synthesize donnaImgView;
+@synthesize maxClubImgView;
+
+@synthesize pageControl;
 
 
 #pragma mark -
@@ -83,34 +90,37 @@
 }
 
 
-- (IBAction)barItemClick:(id)sender {
-	int digit = [sender tag];
+- (void)pageChanger:(id)sender {
+	NSLog( @"CAZZO: %d", [pageControl currentPage]);
 	
-	NSLog (@"%d", digit);
-
-	NSString *imagePath;
-	
-	switch (digit) {
+	switch ([pageControl currentPage]) {
 		case 0:
-			imagePath= @"Atenea.jpeg";
+			[uomo removeFromSuperview];
+			[donna removeFromSuperview];
+			[maxClub removeFromSuperview];
+			[[self window] addSubview:atenea];
 			break;
-		case 1:
-			imagePath= @"Donna.jpeg";
+	    case 1:
+			[atenea removeFromSuperview];
+			[uomo removeFromSuperview];
+			[maxClub removeFromSuperview];
+			[[self window] addSubview:donna];
 			break;
 		case 2:
-			imagePath= @"MaxClub.jpeg";
+			[atenea removeFromSuperview];
+			[donna removeFromSuperview];
+			[uomo removeFromSuperview];
+			[[self window] addSubview:maxClub];
 			break;
 		case 3:
-			imagePath= @"Uomo.jpeg";
+			[atenea removeFromSuperview];
+			[donna removeFromSuperview];
+			[maxClub removeFromSuperview];
+			[[self window] addSubview:uomo];
 			break;
 		default:
 			break;
 	}
-	NSLog (@"%@", imagePath);
-	
-	UIImage *image= [UIImage imageNamed:imagePath];
-	
-	pictureView.image=image;
 }
 
 

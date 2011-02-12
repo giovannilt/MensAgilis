@@ -9,32 +9,43 @@
 #import <UIKit/UIKit.h>
 
 @interface MensAgilis_TrunkAppDelegate : NSObject <UIApplicationDelegate> {
-    UIWindow *window;
+    
+	UIWindow *window;
 	
-	UIBarItem *ateneaBtn;
-	UIBarItem *donnaBtn;
-	UIBarItem *maxClubBtn;
-	UIBarItem *uomoBtn;
+	UIView *atenea;
+	UIView *donna;
+	UIView *maxClub;
+	UIView *uomo;
 	
-	UIToolbar *toolBar;
+	UITabBar *tabBar;
+	UINavigationBar *navBar;
 	
-	UIImageView *pictureView;
+	UIImageView *ateneaImgView;
+	UIImageView *uomoImgView;
+	UIImageView *donnaImgView;
+	UIImageView *maxClubImgView;
 	
+	UIPageControl *pageControl;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet UIBarItem *ateneaBtn;
-@property (nonatomic, retain) IBOutlet UIBarItem *donnaBtn;
-@property (nonatomic, retain) IBOutlet UIBarItem *maxClubBtn;
-@property (nonatomic, retain) IBOutlet UIBarItem *uomoBtn;
-@property (nonatomic, retain) IBOutlet UIImageView *pictureView;
-@property (nonatomic, retain) IBOutlet UIToolbar *toolBar;
+@property (nonatomic, retain) IBOutlet UIView *atenea;
+@property (nonatomic, retain) IBOutlet UIView *donna;
+@property (nonatomic, retain) IBOutlet UIView *maxClub;
+@property (nonatomic, retain) IBOutlet UIView *uomo;
 
+@property (nonatomic, retain) IBOutlet UITabBar *tabBar;
+@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
 
-- (IBAction)barItemClick:(id)sender;
+@property (nonatomic, retain) IBOutlet UIImageView *ateneaImgView;
+@property (nonatomic, retain) IBOutlet UIImageView *uomoImgView;
+@property (nonatomic, retain) IBOutlet UIImageView *donnaImgView;
+@property (nonatomic, retain) IBOutlet UIImageView *maxClubImgView;
 
+@property (nonatomic, retain) IBOutlet UIPageControl *pageControl;
 
+- (void) pageChanger:(id)sender;
 
 @end
 
