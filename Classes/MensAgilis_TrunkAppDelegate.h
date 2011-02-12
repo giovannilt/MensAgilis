@@ -12,10 +12,10 @@
     
 	UIWindow *window;
 	
-	UIView *atenea;
-	UIView *donna;
-	UIView *maxClub;
-	UIView *uomo;
+	UIScrollView *atenea;
+	UIScrollView *donna;
+	UIScrollView *maxClub;
+	UIScrollView *uomo;
 	
 	UITabBar *tabBar;
 	UINavigationBar *navBar;
@@ -30,10 +30,10 @@
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
 
-@property (nonatomic, retain) IBOutlet UIView *atenea;
-@property (nonatomic, retain) IBOutlet UIView *donna;
-@property (nonatomic, retain) IBOutlet UIView *maxClub;
-@property (nonatomic, retain) IBOutlet UIView *uomo;
+@property (nonatomic, retain) IBOutlet UIScrollView *atenea;
+@property (nonatomic, retain) IBOutlet UIScrollView *donna;
+@property (nonatomic, retain) IBOutlet UIScrollView *maxClub;
+@property (nonatomic, retain) IBOutlet UIScrollView *uomo;
 
 @property (nonatomic, retain) IBOutlet UITabBar *tabBar;
 @property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
