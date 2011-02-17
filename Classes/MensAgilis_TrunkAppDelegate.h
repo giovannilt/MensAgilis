@@ -8,44 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class ContentController;
+
 @interface MensAgilis_TrunkAppDelegate : NSObject <UIApplicationDelegate> {
     
 	UIWindow *window;
-	
-	UIScrollView *atenea;
-	UIScrollView *donna;
-	UIScrollView *maxClub;
-	UIScrollView *uomo;
-	
-	UITabBar *tabBar;
-	UINavigationBar *navBar;
-	
-	UIImageView *ateneaImgView;
-	UIImageView *uomoImgView;
-	UIImageView *donnaImgView;
-	UIImageView *maxClubImgView;
-	
-	UIPageControl *pageControl;
+	ContentController *contentController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
-
-@property (nonatomic, retain) IBOutlet UIScrollView *atenea;
-@property (nonatomic, retain) IBOutlet UIScrollView *donna;
-@property (nonatomic, retain) IBOutlet UIScrollView *maxClub;
-@property (nonatomic, retain) IBOutlet UIScrollView *uomo;
-
-@property (nonatomic, retain) IBOutlet UITabBar *tabBar;
-@property (nonatomic, retain) IBOutlet UINavigationBar *navBar;
-
-@property (nonatomic, retain) IBOutlet UIImageView *ateneaImgView;
-@property (nonatomic, retain) IBOutlet UIImageView *uomoImgView;
-@property (nonatomic, retain) IBOutlet UIImageView *donnaImgView;
-@property (nonatomic, retain) IBOutlet UIImageView *maxClubImgView;
-
-@property (nonatomic, retain) IBOutlet UIPageControl *pageControl;
-
-- (void) pageChanger:(id)sender;
+@property (nonatomic, retain) IBOutlet ContentController *contentController;
 
 @end
+
 
