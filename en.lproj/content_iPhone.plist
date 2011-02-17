@@ -4,39 +4,39 @@
 <array>
 	<dict>
 		<key>nameKey</key>
-		<string>Number One</string>
+		<string></string>
 		<key>imageKey</key>
-		<string>small_one.png</string>
+		<string>logo.gif</string>
 	</dict>
 	<dict>
 		<key>nameKey</key>
-		<string>Number Two</string>
+		<string>Donna</string>
 		<key>imageKey</key>
-		<string>small_two.png</string>
+		<string>donna.jpeg</string>
 	</dict>
 	<dict>
 		<key>nameKey</key>
-		<string>Number Three</string>
+		<string>Atenea</string>
 		<key>imageKey</key>
-		<string>small_three.png</string>
+		<string>atenea.jpeg</string>
 	</dict>
 	<dict>
 		<key>nameKey</key>
-		<string>Number Four</string>
+		<string>Max Club</string>
 		<key>imageKey</key>
-		<string>small_four.png</string>
+		<string>maxClub.jpeg</string>
 	</dict>
 	<dict>
 		<key>nameKey</key>
-		<string>Number Five</string>
+		<string>Trend</string>
 		<key>imageKey</key>
-		<string>small_five.png</string>
+		<string>trend.jpeg</string>
 	</dict>
 	<dict>
 		<key>nameKey</key>
-		<string>Number Six</string>
+		<string>Uomo</string>
 		<key>imageKey</key>
-		<string>small_six.png</string>
+		<string>uomo.jpeg</string>
 	</dict>
 </array>
 </plist>
