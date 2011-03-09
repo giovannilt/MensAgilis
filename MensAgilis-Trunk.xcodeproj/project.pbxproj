@@ -34,13 +34,13 @@
 		C593F385130DA34000892991 /* MyView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C593F37A130DA34000892991 /* MyView.xib */; };
 		C593F386130DA34000892991 /* PadContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = C593F37C130DA34000892991 /* PadContent.xib */; };
 		C593F387130DA34000892991 /* PhoneContent.xib in Resources */ = {isa = PBXBuildFile; fileRef = C593F37E130DA34000892991 /* PhoneContent.xib */; };
-		C593F3A2130DB00300892991 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F39F130DB00300892991 /* MyViewController.m */; };
-		C593F3A3130DB00300892991 /* PhoneContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F3A1130DB00300892991 /* PhoneContentController.m */; };
 		C593F3AB130DB01200892991 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F3A6130DB01200892991 /* DetailViewController.m */; };
 		C593F3AC130DB01200892991 /* PadContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F3A8130DB01200892991 /* PadContentController.m */; };
 		C593F3AD130DB01200892991 /* Tile.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F3AA130DB01200892991 /* Tile.m */; };
 		C593F3B0130DB02200892991 /* ContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F3AF130DB02200892991 /* ContentController.m */; };
 		C593F3B3130DB02F00892991 /* DetailPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C593F3B2130DB02F00892991 /* DetailPopoverViewController.m */; };
+		C5C602F8132593050063D465 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C602F5132593050063D465 /* MyViewController.m */; };
+		C5C602F9132593050063D465 /* PhoneContentController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5C602F7132593050063D465 /* PhoneContentController.m */; };
 		C5DFDFCF130DD7C700677220 /* logo.gif in Resources */ = {isa = PBXBuildFile; fileRef = C5DFDFCE130DD7C700677220 /* logo.gif */; };
 		C5DFDFE9130DDB3500677220 /* atenea.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5DFDFE4130DDB3500677220 /* atenea.jpeg */; };
 		C5DFDFEA130DDB3500677220 /* donna.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C5DFDFE5130DDB3500677220 /* donna.jpeg */; };
@@ -82,10 +82,6 @@
 		C593F37B130DA34000892991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = MyView.xib; sourceTree = "<group>"; };
 		C593F37D130DA34000892991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = PadContent.xib; sourceTree = "<group>"; };
 		C593F37F130DA34000892991 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = PhoneContent.xib; sourceTree = "<group>"; };
-		C593F39E130DB00300892991 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
-		C593F39F130DB00300892991 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
-		C593F3A0130DB00300892991 /* PhoneContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhoneContentController.h; sourceTree = "<group>"; };
-		C593F3A1130DB00300892991 /* PhoneContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhoneContentController.m; sourceTree = "<group>"; };
 		C593F3A5130DB01200892991 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		C593F3A6130DB01200892991 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		C593F3A7130DB01200892991 /* PadContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PadContentController.h; sourceTree = "<group>"; };
@@ -96,6 +92,10 @@
 		C593F3AF130DB02200892991 /* ContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentController.m; sourceTree = "<group>"; };
 		C593F3B1130DB02F00892991 /* DetailPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetailPopoverViewController.h; path = ../DetailPopoverViewController.h; sourceTree = "<group>"; };
 		C593F3B2130DB02F00892991 /* DetailPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetailPopoverViewController.m; path = ../DetailPopoverViewController.m; sourceTree = "<group>"; };
+		C5C602F4132593050063D465 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyViewController.h; path = iPhone/MyViewController.h; sourceTree = "<group>"; };
+		C5C602F5132593050063D465 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyViewController.m; path = iPhone/MyViewController.m; sourceTree = "<group>"; };
+		C5C602F6132593050063D465 /* PhoneContentController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhoneContentController.h; path = iPhone/PhoneContentController.h; sourceTree = "<group>"; };
+		C5C602F7132593050063D465 /* PhoneContentController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhoneContentController.m; path = iPhone/PhoneContentController.m; sourceTree = "<group>"; };
 		C5DFDFCE130DD7C700677220 /* logo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = logo.gif; sourceTree = "<group>"; };
 		C5DFDFE4130DDB3500677220 /* atenea.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = atenea.jpeg; sourceTree = "<group>"; };
 		C5DFDFE5130DDB3500677220 /* donna.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = donna.jpeg; sourceTree = "<group>"; };
@@ -121,10 +121,10 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				C529D9161325948B003062DB /* PhoneContent */,
 				C593F3AE130DB02200892991 /* ContentController.h */,
 				C593F3AF130DB02200892991 /* ContentController.m */,
 				C593F3A4130DB01200892991 /* PadContent */,
-				C593F39D130DB00300892991 /* PhoneContent */,
 				1D3623240D0F684500981E51 /* MensAgilis_TrunkAppDelegate.h */,
 				1D3623250D0F684500981E51 /* MensAgilis_TrunkAppDelegate.m */,
 			);
@@ -179,6 +179,17 @@
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C529D9161325948B003062DB /* PhoneContent */ = {
+			isa = PBXGroup;
+			children = (
+				C5C602F4132593050063D465 /* MyViewController.h */,
+				C5C602F5132593050063D465 /* MyViewController.m */,
+				C5C602F6132593050063D465 /* PhoneContentController.h */,
+				C5C602F7132593050063D465 /* PhoneContentController.m */,
+			);
+			name = PhoneContent;
 			sourceTree = "<group>";
 		};
 		C593F335130DA30500892991 /* images */ = {
@@ -238,18 +249,6 @@
 			);
 			path = en.lproj;
 			sourceTree = "<group>";
-		};
-		C593F39D130DB00300892991 /* PhoneContent */ = {
-			isa = PBXGroup;
-			children = (
-				C593F39E130DB00300892991 /* MyViewController.h */,
-				C593F39F130DB00300892991 /* MyViewController.m */,
-				C593F3A0130DB00300892991 /* PhoneContentController.h */,
-				C593F3A1130DB00300892991 /* PhoneContentController.m */,
-			);
-			name = PhoneContent;
-			path = ../../Downloads/PageControl/PageControl/Classes/iPhone;
-			sourceTree = SOURCE_ROOT;
 		};
 		C593F3A4130DB01200892991 /* PadContent */ = {
 			isa = PBXGroup;
@@ -357,13 +356,13 @@
 			files = (
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* MensAgilis_TrunkAppDelegate.m in Sources */,
-				C593F3A2130DB00300892991 /* MyViewController.m in Sources */,
-				C593F3A3130DB00300892991 /* PhoneContentController.m in Sources */,
 				C593F3AB130DB01200892991 /* DetailViewController.m in Sources */,
 				C593F3AC130DB01200892991 /* PadContentController.m in Sources */,
 				C593F3AD130DB01200892991 /* Tile.m in Sources */,
 				C593F3B0130DB02200892991 /* ContentController.m in Sources */,
 				C593F3B3130DB02F00892991 /* DetailPopoverViewController.m in Sources */,
+				C5C602F8132593050063D465 /* MyViewController.m in Sources */,
+				C5C602F9132593050063D465 /* PhoneContentController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
